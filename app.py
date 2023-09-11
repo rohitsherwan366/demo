@@ -35,7 +35,7 @@ def display_data():
     </head>
     <body>
         <div class="container mt-5">
-            <h1>Customer Information</h1>
+            <h1>Customer Information (By Rohit Byas [EMPN0692])</h1>
             <table class="table table-striped">
                 <thead>
                     <tr>
@@ -67,4 +67,4 @@ def display_data():
     return render_template_string(template, data=data)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
